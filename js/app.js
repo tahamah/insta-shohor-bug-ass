@@ -12,7 +12,7 @@ const getReportedPosts = () => {
 };
 
 const isLiked = (id) => {
-    return likedPostsId.length && !!likedPostsId.includes(id); ////likedPostsId?.le
+    return likedPostsId.length && !!likedPostsId.includes(id);
 };
 
 const addToLiked = (id) => {
